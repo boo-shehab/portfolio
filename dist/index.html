@@ -1,12 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed</title>
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 <body>
-    <p>Hi</p>
+  <!-- Start header -->
+  <div class="header" id="header">
+      <div class="container">
+          <a class="logo" href="#">Desing</a>
+          <ul class="main-nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#skills">skills</a>
+                <div class="mega-menu">
+                  <ul class="links">
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="Works">Works</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+  </div>
+  <!-- Start Landing -->
+  <div class="landing">
+      <div class="container">
+          <div class="text">
+              <h1>Welcome, I'm Ahmed</h1>
+              <p>I'm Front-end developer I'm excited to show my projects & skills, but first let me introduce my self.</p>
+          </div>
+          <div class="image">
+              <!-- <img src="images/landing-image.png" alt=""> -->
+          </div>
+      </div>
+  </div>
+  <!-- End Landing -->
+  <!-- Start about me -->
+  <section id="about-me">
+    <div class="container">
+      <h2 class="main-title">Abuot Me</h2>
+      <div class="box">
+        <h3>Hello again</h3>
+        <p>My name is Ahmed Abas, I’m a front-end developer who specializes in JavaScript and pure CSS with a lot of knowledge using Bootstrap.</p>
+        <p>My goal is to be one of the best developers and put my own mark on this huge world</p>
+        <p>I don't have a degree so all my experience and knowledge came from self learning coz I do what I love and I'm not quitter and that's what make me a good learner and love getting feedbacks</p>
+      </div>
+    </div>
+  </section>
+  <!-- End about me -->
+  <!-- Start skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="main-title">Skills</h2>
+      <div class="skills-list">
+        <div class="box">
+          <img src="./image/html-icon.svg" alt="">
+        </div>
+        <div class="box">
+          <img src="./image/css-icon.svg" alt="">
+        </div>
+        <div class="box">
+          <img src="./image/javascript-icon.svg" alt="">
+        </div>
+        <div class="box">
+          <img src="./image/bootstrab-icon.svg" alt="">
+        </div>
+        <div class="box">
+          <img src="./image/scss-icon.svg" alt="">
+        </div>
+        <div class="box">
+          <img src="./image/webpack-icon.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End skills -->
+  <!-- Start Work -->
+  <section id="work">
+    <div class="container">
+      <h2 class="main-title">Skills</h2>
+      <div class="work-list">
+        <div class="box">
+          <div class="web-links">
+            <button class="live-link"><a href="#">LIVE</a></button>
+            <button class="github-link"><a href="#"><i class="icon-github1"></i></a></button>
+          </div>
+          <img src="./image/team-04.jpg" alt="">
+          <h4>capstone-project-1</h4>
+          <p>end first module project in Microverse using an image to create to pages and add some features in it</p>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="web-links">
+            <button class="live-link"><a href="#">LIVE</a></button>
+            <button class="github-link"><a href=""><i class="icon-github1"></i></a></button>
+          </div>
+          <img src="./image/team-04.jpg" alt="">
+          <h4>capstone-project-1</h4>
+          <p>end first module project in Microverse using an image to create to pages and add some features in it</p>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="web-links">
+            <button class="live-link"><a href="#">LIVE</a></button>
+            <button class="github-link"><a href="#"><i class="icon-github1"></i></a></button>
+          </div>
+          <img src="./image/team-04.jpg" alt="">
+          <h4>capstone-project-1</h4>
+          <p>end first module project in Microverse using an image to create to pages and add some features in it</p>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="web-links">
+            <button class="live-link"><a href="#">LIVE</a></button>
+            <button class="github-link"><a href="#"><i class="icon-github1"></i></a></button>
+          </div>
+          <img src="./image/team-04.jpg" alt="">
+          <h4>capstone-project-1</h4>
+          <p>end first module project in Microverse using an image to create to pages and add some features in it</p>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End work -->
+  <!-- Start contact -->
+  <section id="contact">
+    <div class="container">
+      <img src="./image/message-icon.svg" alt="">
+      <form action="https://formspree.io/f/xzbwyneq" method="post">
+        <label for="name" hidden>put your name</label>
+        <input type="text" id="name" name="name" placeholder="name">
+        <label for="email" hidden>put your email</label>
+        <input type="email" id="email" name="email" placeholder="E-mail">
+        <label for="subject" hidden>put your subject</label>
+        <input type="text" id="subject" name="subject" placeholder="subject">
+        <label for="message" hidden>put your message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <button type="submit" value="send">send</button>
+      </form>
+    </div>
+  </section>
+  <!-- End contact -->
 </body>
 </html>
