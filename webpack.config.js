@@ -18,7 +18,6 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: 'src/assets/images/[name].[ext]',
     clean: true,
   },
   devServer: {
