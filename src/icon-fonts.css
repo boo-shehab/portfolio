@@ -1,12 +1,12 @@
 /* stylelint-disable */
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?dtaj3w');
+  src: url('fonts/icomoon.eot?yr9t2f');
   src:
-    url('fonts/icomoon.eot?dtaj3w#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?dtaj3w') format('truetype'),
-    url('fonts/icomoon.woff?dtaj3w') format('woff'),
-    url('fonts/icomoon.svg?dtaj3w#icomoon') format('svg');
+    url('fonts/icomoon.eot?yr9t2f#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yr9t2f') format('truetype'),
+    url('fonts/icomoon.woff?yr9t2f') format('woff'),
+    url('fonts/icomoon.svg?yr9t2f#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -16,7 +16,6 @@
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -32,6 +31,14 @@
   content: "\e900";
 }
 
+.icon-twitter::before {
+  content: "\ea96";
+}
+
 .icon-github::before {
   content: "\eab0";
+}
+
+.icon-linkedin2::before {
+  content: "\eaca";
 }
