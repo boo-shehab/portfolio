@@ -112,8 +112,9 @@ a {
 /* Start header */
 .header {
   background-color: white;
-  position: relative;
   box-shadow: 0 0 10px #ddd;
+  width: 100%;
+  z-index: 5;
 }
 
 .header .container {
@@ -139,6 +140,7 @@ a {
 }
 
 .landing {
+  padding-top: 72px;
   position: relative;
   padding-bottom: 100px;
 }
@@ -595,9 +597,6 @@ body:has(.burger-button.active) .landing {
  */
 @media (max-width: 767px) {
   /* Start header */
-  .header {
-    z-index: 5;
-  }
 
   .header .container .burger-button {
     width: 46px;
