@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9d4115a5.css",
+    "main.js": "/portfolio/static/js/main.1c96e4c8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Meal-App.PNG": "/portfolio/static/media/Meal-App.13a14be252c996cf7180.PNG",
+    "static/media/Space-Hub.PNG": "/portfolio/static/media/Space-Hub.0383f6be2ab2f711fa17.PNG",
+    "static/media/DriveWise.PNG": "/portfolio/static/media/DriveWise.851a7727fa4230cab1fd.PNG",
+    "static/media/hygiene-ambassadors.PNG": "/portfolio/static/media/hygiene-ambassadors.f00a5601b31bce2d4464.PNG",
+    "static/media/profile_image.jpg": "/portfolio/static/media/profile_image.3a9a0d765a541168c990.jpg",
+    "static/media/duolingo-dashboard.PNG": "/portfolio/static/media/duolingo-dashboard.0ac4830cf9d3edc77bf3.PNG",
+    "index.html": "/portfolio/index.html",
+    "main.9d4115a5.css.map": "/portfolio/static/css/main.9d4115a5.css.map",
+    "main.1c96e4c8.js.map": "/portfolio/static/js/main.1c96e4c8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d4115a5.css",
+    "static/js/main.1c96e4c8.js"
+  ]
+}
