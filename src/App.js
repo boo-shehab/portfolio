@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import ScrollReveal from 'scrollreveal';
+import EmailForm from './components/EmailForm';
 
 const App = () => {
   const [selectedTheme, setSelectedTheme] = useState(localStorage.getItem('selected-theme') || 'light');
@@ -70,6 +71,7 @@ const App = () => {
             <Skills />
           </div>
         </section>
+        <EmailForm />
       </main>
       <Footer />
     </div>
