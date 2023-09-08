@@ -26,6 +26,7 @@ const App = () => {
     sr.reveal('.profile__buttons', { delay: 800 });
     sr.reveal('.profile__content', { delay: 900 });
     sr.reveal('.filters', { delay: 1000 });
+    sr.reveal('.form-container', { delay: 1100 });
   }, []);
   
   useEffect(() => {

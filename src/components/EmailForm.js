@@ -5,42 +5,33 @@ const EmailForm = () => {
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.open(mailtoLink, '_blank');
-
-    // Reset form fields
-    setEmail('');
-    setSubject('');
-    setBody('');
-  };
-
   return (
-    <form action="https://formsubmit.co/bfhetyrhyr12@email.com" method="POST">
+    <form action="https://formspree.io/f/xzbwyneq" method="POST" className='form-container'>
       <label>
-        Email:
+        Email
         <input
           type="email"
+          name="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
       </label>
       <label>
-        Subject:
+        Subject
         <input
           type="text"
           value={subject}
+          name="Subject"
           onChange={(e) => setSubject(e.target.value)}
           required
         />
       </label>
       <label>
-        Body:
+        Body
         <textarea
           value={body}
+          name="Body"
           onChange={(e) => setBody(e.target.value)}
           required
         />
