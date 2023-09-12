@@ -33,17 +33,6 @@ const Projects = () => {
         </div>
       </article>
       <article className="projects__card">
-        <img src={driveWise} alt="" className="projects__img" />
-        <div className="projects__modal">
-          <div>
-            <h3 className="projects__title">DriveWise</h3>
-            <p className="projects__subtitle">website for renting cars</p>
-            <a href="https://drivewise.onrender.com/" target="_blank" className="projects__button button button__small" rel="noreferrer"><AiOutlineLink /></a>
-            <a href="https://github.com/boo-shehab/drivewise-frontend" target="_blank" className="projects__button button button__small" rel="noreferrer"><FiGithub /></a>
-          </div>
-        </div>
-      </article>
-      <article className="projects__card">
         <img src={hygieneAmbassadors} alt="" className="projects__img" />
         <div className="projects__modal">
           <div>
