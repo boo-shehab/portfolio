@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.85cee019.css",
-    "main.js": "/portfolio/static/js/main.6c35546f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.726b55dc.css",
+    "main.js": "/portfolio/static/js/main.7f5767a0.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Meal-App.PNG": "/portfolio/static/media/Meal-App.13a14be252c996cf7180.PNG",
     "static/media/Space-Hub.PNG": "/portfolio/static/media/Space-Hub.0383f6be2ab2f711fa17.PNG",
     "static/media/DriveWise.PNG": "/portfolio/static/media/DriveWise.851a7727fa4230cab1fd.PNG",
     "static/media/hygiene-ambassadors.PNG": "/portfolio/static/media/hygiene-ambassadors.f00a5601b31bce2d4464.PNG",
     "static/media/profile_image.jpg": "/portfolio/static/media/profile_image.3a9a0d765a541168c990.jpg",
-    "static/media/Ahmed_Abas_CV.pdf": "/portfolio/static/media/Ahmed_Abas_CV.81e09f94c67cf48e0153.pdf",
+    "static/media/Ahmed_Abas_CV.pdf": "/portfolio/static/media/Ahmed_Abas_CV.e308c4e95308b4e0016c.pdf",
     "static/media/duolingo-dashboard.PNG": "/portfolio/static/media/duolingo-dashboard.0ac4830cf9d3edc77bf3.PNG",
     "index.html": "/portfolio/index.html",
-    "main.85cee019.css.map": "/portfolio/static/css/main.85cee019.css.map",
-    "main.6c35546f.js.map": "/portfolio/static/js/main.6c35546f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.726b55dc.css.map": "/portfolio/static/css/main.726b55dc.css.map",
+    "main.7f5767a0.js.map": "/portfolio/static/js/main.7f5767a0.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85cee019.css",
-    "static/js/main.6c35546f.js"
+    "static/css/main.726b55dc.css",
+    "static/js/main.7f5767a0.js"
   ]
 }
