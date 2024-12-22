@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsMoon, BsSun, BsWhatsapp, BsTelegram, BsDownload } from "react-icons/bs";
 import { AiOutlineMail } from 'react-icons/ai'
-import PDF_CV from '../PDF/Ahmed_Abas_CV.pdf'
+import PDF_CV from '../Ahmed_Abas_CV.pdf'
 import Profile from './Profile';
 
 const Header = ({ selectedTheme, themeChange }) => {
