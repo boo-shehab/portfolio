@@ -3,8 +3,7 @@ import { AiOutlineLink } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi"
 import MealApp from '../images/Meal-App.PNG';
 import dolingoDashboard from '../images/duolingo-dashboard.PNG';
-import driveWise from '../images/DriveWise.PNG';
-import hygieneAmbassadors from '../images/hygiene-ambassadors.PNG';
+import rabbitECommerce from '../images/rabbit-e-commerce.png';
 import SpaceHub from '../images/Space-Hub.PNG';
 
 const Projects = () => {
@@ -33,13 +32,13 @@ const Projects = () => {
         </div>
       </article>
       <article className="projects__card">
-        <img src={hygieneAmbassadors} alt="" className="projects__img" />
+        <img src={rabbitECommerce} alt="" className="projects__img" />
         <div className="projects__modal">
           <div>
-            <h3 className="projects__title">Hygiene Ambassadors</h3>
-            <p className="projects__subtitle">A youth campaign to clean the banks of rivers throughout Iraq</p>
-            <a href="https://boo-shehab.github.io/capstone-project-1/" target="_blank" className="projects__button button button__small" rel="noreferrer"><AiOutlineLink /></a>
-            <a href="https://github.com/boo-shehab/capstone-project-1/" target="_blank" className="projects__button button button__small" rel="noreferrer"><FiGithub /></a>
+            <h3 className="projects__title">e-commerce Rabbit</h3>
+            <p className="projects__subtitle">an e-commerce website for clothing</p>
+            <a href="https://e-commerce-puce-nine-63.vercel.app/" target="_blank" className="projects__button button button__small" rel="noreferrer"><AiOutlineLink /></a>
+            <a href="https://github.com/boo-shehab/ECommerce/" target="_blank" className="projects__button button button__small" rel="noreferrer"><FiGithub /></a>
           </div>
         </div>
       </article>
