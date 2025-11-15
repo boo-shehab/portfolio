@@ -5,6 +5,9 @@ import { MdOutlineMail } from "react-icons/md";
 
 import { CiLinkedin } from "react-icons/ci";
 import { SiLeetcode } from "react-icons/si"
+import { BsMoon, BsSun, BsWhatsapp, BsTelegram, BsDownload } from "react-icons/bs";
+import { AiOutlineMail } from 'react-icons/ai'
+import PDF_CV from '../Ahmed_Abas_CV.pdf'
 import Profile from './Profile';
 
 const Header = ({ selectedTheme, themeChange }) => {
@@ -23,7 +26,7 @@ const Header = ({ selectedTheme, themeChange }) => {
           </div>
         </div>
         <div className="profile__buttons">
-          <a download="" href="../PDF/Ahmed_Abas_CV.pdf" className="button">download CV <BsDownload /></a>
+          <a download="Ahmed_Abas_CV" href={PDF_CV} className="button">download CV <BsDownload /></a>
           <div className="profile_buttons-small">
             <a href="https://wa.me/9647809629386" target="_blank" className="button button__small button_gray" rel="noreferrer"><BsWhatsapp /></a>
             <a href="https://telegram.me/boo_shehab" target="_blank" className="button button__small button_gray" rel="noreferrer"><BsTelegram /></a>

@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import ScrollReveal from 'scrollreveal';
+import EmailForm from './components/EmailForm';
 
 const App = () => {
   const [selectedTheme, setSelectedTheme] = useState(localStorage.getItem('selected-theme') || 'light');
@@ -25,6 +26,7 @@ const App = () => {
     sr.reveal('.profile__buttons', { delay: 800 });
     sr.reveal('.profile__content', { delay: 900 });
     sr.reveal('.filters', { delay: 1000 });
+    sr.reveal('.form-container', { delay: 1100 });
   }, []);
   
   useEffect(() => {
@@ -70,6 +72,7 @@ const App = () => {
             <Skills />
           </div>
         </section>
+        <EmailForm />
       </main>
       <Footer />
     </div>

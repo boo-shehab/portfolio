@@ -14,9 +14,9 @@ const Profile = () => {
       <h2 className="profile__name">Ahmed abas</h2>
       <h3 className="profile__profession">web developer</h3>
       <ul className="profile__social">
-        <a href="https://leetcode.com/bfhetyrhyr12/" className="profile__social-link"> <SiLeetcode /></a>
-        <a href="https://www.linkedin.com/in/boo-shehab/" className="profile__social-link"><BsLinkedin /></a>
-        <a href="https://github.com/boo-shehab" className="profile__social-link"><BsGithub /></a>
+        <a href="https://leetcode.com/bfhetyrhyr12/" target="_blank" className="profile__social-link"> <SiLeetcode /></a>
+        <a href="https://www.linkedin.com/in/boo-shehab/" target="_blank" className="profile__social-link"><BsLinkedin /></a>
+        <a href="https://github.com/boo-shehab" target="_blank" className="profile__social-link"><BsGithub /></a>
       </ul>
     </div>
   );

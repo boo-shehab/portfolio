@@ -29,14 +29,14 @@ const Skills = () => {
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">JavaScript</h3>
-                        <span class="skills__level">intermediate</span>
+                        <span class="skills__level">advanced-intermediate</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">jest</h3>
-                        <span class="skills__level">basic</span>
+                        <span class="skills__level">intermediate</span>
                     </div>
                 </div>
             </div>
@@ -45,14 +45,14 @@ const Skills = () => {
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">React</h3>
-                        <span class="skills__level">advanced</span>
+                        <span class="skills__level">advanced-intermediate</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">React-Redux</h3>
-                        <span class="skills__level">intermediate</span>
+                        <span class="skills__level">advanced-intermediate</span>
                     </div>
                 </div>
                 <div class="skills__data">
@@ -105,14 +105,14 @@ const Skills = () => {
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">Postgresql</h3>
-                        <span class="skills__level">basic</span>
+                        <span class="skills__level">intermediate-basic</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">Mysql</h3>
-                        <span class="skills__level">basic</span>
+                        <span class="skills__level">intermediate-basic</span>
                     </div>
                 </div>
             </div>
