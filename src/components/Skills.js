@@ -15,21 +15,21 @@ const Skills = () => {
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">HTML</h3>
-                        <span class="skills__level">basic</span>
+                        <span class="skills__level">intermediate</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">CSS</h3>
-                        <span class="skills__level">basic</span>
+                        <span class="skills__level">intermediate</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">JavaScript</h3>
-                        <span class="skills__level">basic</span>
+                        <span class="skills__level">intermediate</span>
                     </div>
                 </div>
                 <div class="skills__data">
@@ -45,27 +45,27 @@ const Skills = () => {
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">React</h3>
-                        <span class="skills__level">basic</span>
+                        <span class="skills__level">advanced</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">React-Redux</h3>
-                        <span class="skills__level">basic</span>
+                        <span class="skills__level">intermediate</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i><BsCheck2Circle /></i>
+                    <div>
+                        <h3 class="skills__name">tailwind.css</h3>
+                        <span class="skills__level">intermediate</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
                         <h3 class="skills__name">Next.js</h3>
-                        <span class="skills__level">basic</span>
-                    </div>
-                </div>
-                <div class="skills__data">
-                    <i><BsCheck2Circle /></i>
-                    <div>
-                        <h3 class="skills__name">Bootstrap</h3>
                         <span class="skills__level">basic</span>
                     </div>
                 </div>
@@ -81,22 +81,22 @@ const Skills = () => {
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
-                        <h3 class="skills__name">Ruby</h3>
+                        <h3 class="skills__name">Node.js</h3>
                         <span class="skills__level">basic</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
-                        <h3 class="skills__name">Ruby on Rails</h3>
+                        <h3 class="skills__name">Express.js</h3>
                         <span class="skills__level">basic</span>
                     </div>
                 </div>
                 <div class="skills__data">
                     <i><BsCheck2Circle /></i>
                     <div>
-                        <h3 class="skills__name">Rspec</h3>
-                        <span class="skills__level">basic</span>
+                        <h3 class="skills__name">MongoDB</h3>
+                        <span class="skills__level">intermediate</span>
                     </div>
                 </div>
             </div>
